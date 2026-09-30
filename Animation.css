@@ -1,0 +1,47 @@
+
+
+
+div.car {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    box-shadow: 0 5px 40px;
+    background-image: url(../CSS/Animation\ imag.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+h1{
+    font-size: 40px;
+    padding: 20px;
+    font-weight: bold;
+}
+div.car p{
+    margin: 20px;
+    line-height: 1.3;
+    font-size: 15px;
+}
+button{
+    background-color:#dc346d;
+    color:white;
+    padding: 6px 15px;
+    border-radius: 5px;
+    margin: 20px;
+        border: #dc346d;
+}
+img{
+    padding: 10px;
+    height: 400px;
+    margin: 10px;
+     background-image: conic-gradient(from 45deg, black, gray, #78909C, #9E9E9E, #E0E0E0, #EEEEEE, #FAFAFA);
+}
+
+@media(max-width:767px){
+    div.car {
+        flex-direction: column;
+}
+}
